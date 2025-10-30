@@ -32,7 +32,7 @@ Go to:
 
 `CRPropa3/python`
 
-Open the file "2_headers.i" and add the following line (once, where other interaction modules are listed):
+Open the file "2_headers.i" and add the following line once, where other interaction modules are listed:
 
 `%include "crpropa/module/PlasmaInstabilityLoss.h"`
 
@@ -43,7 +43,7 @@ Go to:
 
 `CRPropa3/include`
 
-Open "CRPropa.h" and add the following line (once, where other interaction modules are included):
+Open "CRPropa.h" and add the following line once, where other interaction modules are included:
 
 `#include "crpropa/module/PlasmaInstabilityLoss.h"`
 
@@ -51,7 +51,7 @@ Open "CRPropa.h" and add the following line (once, where other interaction modul
 # 5. Update the Build Configuration
 
 Return to the main CRPropa directory and open "CMakeLists.txt".
-Add the following line (once, alongside other interaction modules):
+Add the following line once, alongside other interaction modules:
 
 `src/module/PlasmaInstabilityLoss.cpp`
 
