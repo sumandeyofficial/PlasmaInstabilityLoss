@@ -3,7 +3,7 @@ The modular design of CRPropa3 allows new functionalities to be easily integrate
 
 The energy-loss calculation for electrons and positrons is implemented in the source file PlasmaInstabilityLoss.cpp based on the paper by Alawashra and Pohl 2022 ApJ 929 67, with the corresponding header file PlasmaInstabilityLoss.h, following the standard CRPropa 3 structure (see https://github.com/CRPropa/CRPropa3).
 
-# --- Steps to add the module in the preinstalled CRPropa3 ---
+# - Steps to add the module in the preinstalled CRPropa3 -
 
 The following steps describe how to add a custom interaction module — for example, a module called PlasmaInstability — to the CRPropa framework:
 
@@ -34,7 +34,7 @@ Go to:
 
 Open the file "2_headers.i" and add the following line (once, where other interaction modules are listed):
 
-`%include "crpropa/module/PlasmaInstability.h`
+`%include "crpropa/module/PlasmaInstability.h"`
 
 
 # 4. Update the Main Header File
