@@ -5,7 +5,7 @@ The energy-loss calculation for electrons and positrons is implemented in the so
 
 # - Steps to add the module in the preinstalled CRPropa3 -
 
-The following steps describe how to add a custom interaction module — for example, a module called PlasmaInstability — to the CRPropa framework:
+The following steps describe how to add a custom interaction module — for example, a module called PlasmaInstabilityLoss — to the CRPropa framework:
 
 
 # 1. Adding the Source File
