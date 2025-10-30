@@ -34,7 +34,7 @@ Go to:
 
 Open the file "2_headers.i" and add the following line (once, where other interaction modules are listed):
 
-`%include "crpropa/module/PlasmaInstability.h"`
+`%include "crpropa/module/PlasmaInstabilityLoss.h"`
 
 
 # 4. Update the Main Header File
@@ -45,7 +45,7 @@ Go to:
 
 Open "CRPropa.h" and add the following line (once, where other interaction modules are included):
 
-`#include "crpropa/module/PlasmaInstability.h"`
+`#include "crpropa/module/PlasmaInstabilityLoss.h"`
 
 
 # 5. Update the Build Configuration
@@ -53,7 +53,7 @@ Open "CRPropa.h" and add the following line (once, where other interaction modul
 Return to the main CRPropa directory and open "CMakeLists.txt".
 Add the following line (once, alongside other interaction modules):
 
-`src/module/PlasmaInstability.cpp`
+`src/module/PlasmaInstabilityLoss.cpp`
 
 
 # 6. Rebuild CRPropa
